@@ -1,5 +1,34 @@
-.container {
-  width: 200px;
-  height: 200px;
-  background-color: pink;
-}/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.blogs .container {
+  justify-content: space-between;
+  color: rgba(248, 249, 250, 0.5);
+}
+.blogs .container .logo h1 {
+  color: #F8F9FA;
+}
+.blogs .container .logo span {
+  font-size: 35px;
+  color: rgba(248, 249, 250, 0.5);
+}
+.blogs .container .texter {
+  width: 30%;
+  margin-left: 40%;
+}
+.blogs .container .texter ul li a {
+  color: rgba(248, 249, 250, 0.5);
+  text-decoration: none;
+}
+
+
+.blogs {
+  width: 100%;
+  height: 500px;
+  background-image: url(../css/img/unsplash_ndN00KmbJ1c.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
